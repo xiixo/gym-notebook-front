@@ -4,6 +4,19 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #09f;
+}
+
+root {
+  width: 100%;
+  max-width: 320px;
+  height: 100%;
+
   color: var(--tg-theme-text-color, rgba(255, 255, 255, 0.87));
   background-color: var(--tg-theme-bg-color, #242424);
 }
+
+
