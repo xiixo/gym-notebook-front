@@ -9,6 +9,10 @@ export default function TelegramProvider({ children }: { children: React.ReactNo
     WebApp.ready();
     WebApp.expand();
     WebApp.disableVerticalSwipes();
+
+    console.log(`First name: ${WebApp?.initDataUnsafe?.user?.first_name}`)
+    console.log(`Safe area inset: ${JSON.stringify(WebApp?.safeAreaInset)}`)
+    console.log(`Content save area inset: ${JSON.stringify(WebApp?.contentSafeAreaInset)}`)
   }, []);
 
   return (
