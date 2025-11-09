@@ -6,13 +6,16 @@
 body {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   background-color: #09f;
 }
 
 #root {
   width: 100%;
-  max-width: 320px;
+  max-width: 400px;
   height: 100%;
 
   color: var(--tg-theme-text-color, rgba(255, 255, 255, 0.87));
